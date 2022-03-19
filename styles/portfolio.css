@@ -1,2 +1,21 @@
 /*font-family: 'Baloo Thambi 2', cursive;
 font-family: 'Suez One', serif;*/
+
+body {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+h1 {
+  font-family: "Suez One", serif;
+  color: white;
+  font-size: 45px;
+}
+
+.homepage-container {
+  background: #76d1cb;
+  padding: 20px 30px;
+}
+
+.homepage-container p {
+  font-size: 25px;
+}
