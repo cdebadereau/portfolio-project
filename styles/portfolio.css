@@ -24,6 +24,13 @@ h2 {
   padding: 13px;
 }
 
+h3 {
+  font-family: var(--titles-font);
+  text-decoration: underline;
+  text-decoration-color: var(--secondary-color);
+  text-underline-offset: 6px;
+}
+
 .homepage-container {
   background: var(--primary-color);
   padding: 75px 150px;
@@ -53,14 +60,33 @@ h2 {
   padding: 30px 45px;
 }
 
-.about-container h3 {
-  font-family: var(--titles-font);
-  text-decoration: underline;
-  text-decoration-color: var(--secondary-color);
-  text-underline-offset: 6px;
-}
-
 .about-container p {
   margin: 0;
   padding-top: 15px;
+}
+
+.projects-container {
+  text-align: center;
+  padding: 30px 45px;
+  margin: 0 auto;
+}
+
+.project-description {
+  background: var(--primary-color);
+}
+
+.project-title {
+  background: #76d1cb49;
+  padding-top: 100px;
+}
+
+.projects-container img {
+  max-width: 100%;
+  padding: 0 auto;
+}
+
+.box {
+  margin: 4px;
+  width: 250px;
+  height: 250px;
 }
