@@ -1,6 +1,11 @@
 /*font-family: 'Baloo Thambi 2', cursive;
 font-family: 'Suez One', serif;*/
 
+:root {
+  --primary-color: #76d1cb;
+  --secondary-color: #10645f;
+}
+
 body {
   font-family: "Baloo Thambi 2", cursive;
 }
@@ -8,14 +13,35 @@ body {
 h1 {
   font-family: "Suez One", serif;
   color: white;
-  font-size: 45px;
+  font-size: 70px;
+}
+
+h2 {
+  background: #ffffff54;
+  font-size: 28px;
+  max-width: 539px;
+  padding: 13px;
 }
 
 .homepage-container {
-  background: #76d1cb;
-  padding: 20px 30px;
+  background: var(--primary-color);
+  padding: 75px 150px;
 }
 
 .homepage-container p {
-  font-size: 25px;
+  font-size: 45px;
+  margin: 0;
+}
+
+.contact-button {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+.contact-button:hover {
+  border: 1px solid var(--secondary-color);
+  color: white;
+  background: var(--secondary-color);
+  transition: all 200ms ease-in-out;
 }
