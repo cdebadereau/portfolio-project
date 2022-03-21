@@ -31,6 +31,10 @@ h3 {
   text-underline-offset: 6px;
 }
 
+h5 {
+  font-weight: bold;
+}
+
 footer {
   padding: 30px 45px;
   background: #096e68b2;
@@ -72,28 +76,23 @@ footer {
 
 .projects-container {
   text-align: center;
-  padding: 30px 45px;
-  margin-bottom: 10px;
+  padding: 30px;
 }
 
 .project-description {
   background: var(--primary-color);
+  padding: 70px;
 }
 
 .project-title {
-  background: #76d1cb49;
-  padding-top: 100px;
+  padding: 120px;
+  background: #d8f2f0;
 }
 
 .projects-container img {
   max-width: 100%;
+  height: 100%;
   padding: 0 auto;
-}
-
-.box {
-  margin: 4px;
-  width: 250px;
-  height: 250px;
 }
 
 .footer-contact-button {
@@ -116,5 +115,9 @@ footer {
 
   .homepage-container {
     padding: 35px 25px;
+  }
+
+  .projects-container img {
+    display: none;
   }
 }
