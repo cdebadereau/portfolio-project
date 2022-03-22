@@ -92,8 +92,18 @@ footer {
 
 .projects-container img {
   max-width: 100%;
-  height: 100%;
-  padding: 0 auto;
+}
+
+img.one-page-site {
+  padding-top: 60px;
+}
+
+img.weather-application {
+  padding-top: 35px;
+}
+
+img.portfolio-project {
+  padding-top: 70px;
 }
 
 .footer-contact-button {
@@ -114,6 +124,11 @@ footer {
   border: 1px solid white;
   color: white;
   font-size: 15px;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 10px;
 }
 
 @media (max-width: 640px) {
