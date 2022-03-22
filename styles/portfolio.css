@@ -102,11 +102,18 @@ footer {
   font-size: 15px;
 }
 
-.footer-contact-button:hover {
+.footer-contact-button:hover,
+.contact-links:hover {
   border: 1px solid var(--secondary-color);
   color: white;
   background: var(--secondary-color);
   transition: all 200ms ease-in-out;
+}
+
+.contact-links {
+  border: 1px solid white;
+  color: white;
+  font-size: 15px;
 }
 
 @media (max-width: 640px) {
