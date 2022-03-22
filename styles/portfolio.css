@@ -4,6 +4,7 @@ font-family: 'Suez One', serif;*/
 :root {
   --primary-color: #76d1cb;
   --secondary-color: #10645f;
+  --third-color: #f0eae3b0;
   --titles-font: "Suez One", serif;
 }
 
@@ -64,7 +65,7 @@ footer {
 }
 
 .about-container {
-  background: #76d1cb49;
+  background: var(--third-color);
   text-align: center;
   padding: 50px 45px;
 }
@@ -80,13 +81,13 @@ footer {
 }
 
 .project-description {
-  background: var(--primary-color);
+  background: var(--third-color);
   padding: 70px;
 }
 
 .project-title {
+  background: var(--primary-color);
   padding: 120px;
-  background: #d8f2f0;
 }
 
 .projects-container img {
