@@ -26,6 +26,10 @@ h2 {
 
 h3 {
   font-family: var(--titles-font);
+  font-size: 60px;
+  margin-top: 25px;
+  text-align: center;
+  padding-left: 100px;
 }
 
 h5 {
@@ -145,6 +149,19 @@ img.portfolio-project {
   color: white;
   background: var(--secondary-color);
   transition: all 200ms ease-in-out;
+}
+
+.contact-icons {
+  padding: 10px;
+  margin: 0 100px;
+  background: var(--primary-color);
+}
+
+.contact-icons a {
+  color: white;
+  margin: 10px;
+  font-size: 40px;
+  display: block;
 }
 
 footer p {
