@@ -26,9 +26,6 @@ h2 {
 
 h3 {
   font-family: var(--titles-font);
-  text-decoration: underline;
-  text-decoration-color: var(--secondary-color);
-  text-underline-offset: 6px;
 }
 
 h5 {
@@ -63,23 +60,12 @@ footer {
   transition: all 200ms ease-in-out;
 }
 
-.about-container {
-  background: var(--third-color);
-  text-align: center;
-  padding: 50px 45px;
-}
-
-.about-container p {
-  margin: 0;
-  padding-top: 15px;
-}
-
-.projects-container {
+/*.projects-container {
   text-align: center;
   padding: 50px;
-}
+}*/
 
-.project-description {
+/*.project-description {
   background: var(--third-color);
   padding: 70px;
 }
@@ -92,7 +78,7 @@ footer {
 .projects-container img {
   max-width: 100%;
 }
-
+*/
 img.one-page-site {
   padding-top: 60px;
 }
@@ -129,11 +115,36 @@ img.portfolio-project {
   padding-top: 80px;
   margin: 0 auto;
   max-width: 70%;
+  text-align: center;
 }
 
 .content-container h1 {
   color: rgb(0, 0, 0);
   font-size: 45px;
+}
+
+.project-content img {
+  width: 470px;
+  padding-top: 35px;
+}
+
+.project-description {
+  text-align: left;
+  margin-top: 50px;
+  padding: 0 20px 0 55px;
+}
+
+.projects-button {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  font-size: 15px;
+}
+
+.projects-button:hover {
+  border: 1px solid var(--secondary-color);
+  color: white;
+  background: var(--secondary-color);
+  transition: all 200ms ease-in-out;
 }
 
 footer p {
@@ -150,7 +161,12 @@ footer p {
     padding: 35px 25px;
   }
 
-  .projects-container img {
+  .project-description {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-content img {
     display: none;
   }
 }
