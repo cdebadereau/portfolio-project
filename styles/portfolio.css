@@ -21,7 +21,6 @@ h1 {
 h2 {
   background: #ffffff54;
   font-size: 28px;
-  max-width: 539px;
   padding: 13px;
 }
 
@@ -124,6 +123,17 @@ img.portfolio-project {
   border: 1px solid white;
   color: white;
   font-size: 15px;
+}
+
+.content-container {
+  padding-top: 80px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+.content-container h1 {
+  color: rgb(0, 0, 0);
+  font-size: 45px;
 }
 
 footer p {
