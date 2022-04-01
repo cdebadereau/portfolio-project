@@ -30,21 +30,22 @@ h3 {
   margin-top: 25px;
 }
 
-h4 {
+.contact-information h4 {
   font-family: var(--titles-font);
-  font-size: 60px;
+  font-size: 50px;
   margin-top: 25px;
   text-align: center;
   padding-left: 100px;
 }
 
-h5 {
-  font-weight: bold;
+.contact-info {
+  background: #096e68b2;
+  text-align: center;
 }
 
-footer {
-  padding: 30px 45px;
-  background: #096e68b2;
+small {
+  padding: 20px 0 20px;
+  display: block;
 }
 
 .homepage-container {
@@ -70,25 +71,6 @@ footer {
   transition: all 200ms ease-in-out;
 }
 
-/*.projects-container {
-  text-align: center;
-  padding: 50px;
-}*/
-
-/*.project-description {
-  background: var(--third-color);
-  padding: 70px;
-}
-
-.project-title {
-  background: var(--primary-color);
-  padding: 120px;
-}
-
-.projects-container img {
-  max-width: 100%;
-}
-*/
 img.one-page-site {
   padding-top: 60px;
 }
@@ -171,8 +153,54 @@ img.portfolio-project {
 }
 
 footer p {
-  text-align: center;
-  margin-top: 10px;
+  padding-top: 30px;
+  font-size: 25px;
+  font-family: var(--titles-font);
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+}
+
+footer .email-link:hover {
+  color: white;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a {
+  color: black;
+  font-size: 25px;
+  margin: 5px;
+}
+
+footer .social-links a:hover {
+  color: white;
+  transition: all 150ms ease-in-out;
+}
+
+footer h4 {
+  font-size: 50px;
+  font-family: var(--titles-font);
+}
+
+.contact-box {
+  background: var(--third-color);
+  padding: 30px;
+  margin: 20px 30px;
+}
+
+.contact-box a {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+.contact-box a:hover {
+  border: 1px solid var(--secondary-color);
+  color: white;
+  background: var(--secondary-color);
+  transition: all 200ms ease-in-out;
 }
 
 @media (max-width: 640px) {
