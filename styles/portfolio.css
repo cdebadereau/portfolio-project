@@ -38,6 +38,50 @@ small a {
   color: white;
 }
 
+img.one-page-site {
+  padding-top: 60px;
+}
+
+img.weather-application {
+  padding-top: 35px;
+}
+
+img.portfolio-project {
+  padding-top: 70px;
+}
+
+footer p {
+  padding-top: 30px;
+  font-size: 25px;
+  font-family: var(--titles-font);
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+}
+
+footer .email-link:hover {
+  color: white;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a {
+  color: black;
+  font-size: 25px;
+  margin: 5px;
+}
+
+footer .social-links a:hover {
+  color: white;
+  transition: all 150ms ease-in-out;
+}
+
+footer h4 {
+  font-size: 50px;
+  font-family: var(--titles-font);
+}
+
 .contact-information h4 {
   font-family: var(--titles-font);
   font-size: 50px;
@@ -72,18 +116,6 @@ small a {
   color: white;
   background: var(--secondary-color);
   transition: all 200ms ease-in-out;
-}
-
-img.one-page-site {
-  padding-top: 60px;
-}
-
-img.weather-application {
-  padding-top: 35px;
-}
-
-img.portfolio-project {
-  padding-top: 70px;
 }
 
 .footer-contact-button {
@@ -155,42 +187,11 @@ img.portfolio-project {
   display: block;
 }
 
-footer p {
-  padding-top: 30px;
-  font-size: 25px;
-  font-family: var(--titles-font);
-}
-
-footer .email-link {
-  text-decoration: none;
-  color: black;
-}
-
-footer .email-link:hover {
-  color: white;
-  transition: all 150ms ease-in-out;
-}
-
-footer .social-links a {
-  color: black;
-  font-size: 25px;
-  margin: 5px;
-}
-
-footer .social-links a:hover {
-  color: white;
-  transition: all 150ms ease-in-out;
-}
-
-footer h4 {
-  font-size: 50px;
-  font-family: var(--titles-font);
-}
-
 .contact-box {
   background: var(--third-color);
   padding: 30px;
-  margin: 20px 30px;
+  margin: 20px 120px;
+  border-radius: 4px;
 }
 
 .contact-box a {
