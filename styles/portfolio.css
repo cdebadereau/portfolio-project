@@ -82,6 +82,25 @@ footer h4 {
   font-family: var(--titles-font);
 }
 
+.homepage-projects a {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.homepage-projects a:hover {
+  border: 1px solid var(--secondary-color);
+  color: white;
+  background: var(--secondary-color);
+  transition: all 200ms ease-in-out;
+}
+
+.homepage-projects i {
+  font-size: 60px;
+  margin-top: 40px;
+}
+
 .contact-information h4 {
   font-family: var(--titles-font);
   font-size: 50px;
