@@ -19,7 +19,6 @@ h1 {
 }
 
 h2 {
-  background: #ffffff54;
   font-size: 28px;
   padding: 13px;
 }
@@ -28,6 +27,15 @@ h3 {
   font-family: var(--titles-font);
   font-size: 30px;
   margin-top: 25px;
+}
+
+small {
+  padding: 20px 0 20px;
+  display: block;
+}
+
+small a {
+  color: white;
 }
 
 .contact-information h4 {
@@ -41,11 +49,6 @@ h3 {
 .contact-info {
   background: #096e68b2;
   text-align: center;
-}
-
-small {
-  padding: 20px 0 20px;
-  display: block;
 }
 
 .homepage-container {
