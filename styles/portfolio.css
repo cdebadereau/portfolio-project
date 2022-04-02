@@ -25,7 +25,7 @@ h2 {
 
 h3 {
   font-family: var(--titles-font);
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 25px;
 }
 
@@ -117,6 +117,7 @@ footer h4 {
 .homepage-container {
   background: var(--primary-color);
   padding: 75px 150px;
+  margin-bottom: 30px;
 }
 
 .homepage-container p {
@@ -231,6 +232,18 @@ footer h4 {
   transition: all 200ms ease-in-out;
 }
 
+.single-project {
+  border: 1px solid #aea8a8;
+  border-radius: 4px;
+  padding: 20px 15px;
+  margin: 10px 20px 20px;
+  box-shadow: 5px 5px 8px rgba(124, 125, 111, 0.4);
+}
+
+.single-project h3 {
+  margin: 0;
+}
+
 @media (max-width: 640px) {
   h1 {
     font-size: 50px;
@@ -238,6 +251,7 @@ footer h4 {
 
   .homepage-container {
     padding: 35px 25px;
+    margin-bottom: 0;
   }
 
   .project-description {
@@ -253,9 +267,16 @@ footer h4 {
     margin: 0;
     margin-top: 15px;
   }
+  .contact-information {
+    margin-bottom: 25px;
+  }
 
   .contact-information h4 {
     padding: 0;
     font-size: 40px;
+  }
+
+  .single-project {
+    margin: 15px 0 15px;
   }
 }
