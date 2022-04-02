@@ -206,6 +206,11 @@ footer h4 {
   display: block;
 }
 
+.contact-icons a:hover {
+  color: black;
+  transition: all 200ms ease-in-out;
+}
+
 .contact-box {
   background: var(--third-color);
   padding: 30px;
